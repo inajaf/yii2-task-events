@@ -14,8 +14,12 @@ The app created to show some Yii2 web app structure that mostly Junior Yii2 deve
 
 ## Documentation
 1) Create database in Mysql or PostgreSQL
-1) Setup your db parameters in config/db.php 
-2) Run migration to create tables inside your database
+2) Setup your db parameters in config/db.php 2Setup your db parameters in config/db.php 
+3) Run composer install to get all packages from composer.json
+```bash
+composer install
+```
+4) Run migration to create tables inside your database
 
 ```bash
   php yii migrate 
